@@ -1,0 +1,365 @@
+body {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+
+/* header */
+#site-header .navbar {
+  border-radius: 0;
+  border: none;
+  margin: 0;
+}
+/*============header css start ===========*/
+header.banner {
+  padding: 3.125rem;
+  display: flex;
+  background: url("../images/basketball2.png") no-repeat top center;
+  background-size: cover;
+  align-items: center;
+}
+header.banner > section {
+  display: flex;
+  flex-direction: column;
+}
+header.banner > section > img {
+  margin-bottom: 6.25rem;
+}
+header.banner > section h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #FFFFFF;
+  margin-bottom: 3.125rem;
+}
+header.banner > section h1 span {
+  font-size: 5rem;
+  color: #3cc;
+  font-weight: bold;
+}
+header.banner > section h1 strong {
+  color: #3cc;
+}
+header.banner > section h2 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  color: #FFFFFF;
+  margin-bottom: 3.125rem;
+}
+header.banner > section div.copy {
+  padding-bottom: 6rem;
+}
+header.banner > section div.copy p {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: #101d49;
+}
+header.banner > section div.copy p:not(:last-child) {
+  margin-bottom: 2.1875rem;
+}
+header.banner > img {
+  width: 26.375rem;
+  align-self: flex-end;
+}
+@media screen and (min-width: 641px) and (max-width: 900px) {
+  header.banner {
+    padding: 3.125rem 2.5rem 0;
+    min-height: auto;
+    justify-content: space-between;
+  }
+  header.banner section {
+    margin-right: 3.125rem;
+  }
+  header.banner section img {
+    margin-bottom: 3.125rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  header.banner {
+    padding: 3.125rem 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header.banner > img {
+    width: 75vw;
+  }
+}
+@media screen and (min-width: 901px) {
+  header.banner {
+    padding-top: 3.125rem;
+    justify-content: space-between;
+  }
+  header.banner > section {
+    margin-right: 9.375rem;
+  }
+}
+/*header end*/
+
+/* main section */
+#site-main {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+main {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+}
+.container{
+  display: flex;
+}
+
+.copy{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 98%;
+}
+
+.wrapper{
+  flex: 0 0 98%;
+  padding-left: 3rem;
+}
+main .copy > p {
+  font-family: Montserrat, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #101d49;
+}
+main .copy > p:not(:last-child) {
+  margin-bottom: 2.1875rem;
+}
+main p.signoff {
+  margin-top: 2.8125rem;
+  font-size: 0.8125rem;
+}
+main .thanks {
+  width: 20rems;
+  margin-bottom: 0.3125rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #3cc;
+  padding-right: 14rem;
+}
+main .hidden {
+  display: none;
+}
+main .form h2 {
+  color: #3cc;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bold;
+  font-size: .9375rem;
+  width: 100%;
+}
+main .form > h3 {
+  margin-bottom: 1.875rem;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  color: #3cc;
+}
+main .form h4 {
+  margin-bottom: 3.875;
+  font-size: 0.9375 !important;
+  font-weight: bold;
+  color: #3cc;
+}
+main .form p {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: .75rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+}
+main .form p label {
+  display: block;
+  margin-bottom: 0.3125rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+main .form input[type="text"],
+main .form input[type="email"] {
+  border: 1px solid #9fa5b6;
+  display: block;
+  width: 100%;
+  background-color: #fbfdfd;
+  margin-bottom: 1rem;
+  padding: 0.625rem 0.75rem;
+  border-radius: 3px;
+  text-align: left;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 0.875rem;
+}
+main .form input[type="submit"] {
+  font-family: "Montserrat", Arial, sans-serif;
+  display: inline-block;
+  -webkit-appearance: none;
+  background: #3cc;
+  padding: 0.875rem 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #fff;
+}
+@media screen and (max-width: 640px) {
+  .container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main {
+    padding: 3.125rem 0.75rem;
+    flex-wrap: wrap;
+  }
+  main .copy {
+    flex: 0 0 100%;
+  }
+  main > div.wrapper {
+    flex: 0 0 100%;
+    margin-top: 3.125rem;
+  }
+  main .form h2 {
+    font-size: .7375rem;
+  }
+  main .form p label {
+    display: block;
+    margin-bottom: 0.3125rem;
+    font-size: 0.5rem;
+  }
+  main .form input[type="text"],
+  main .form input[type="email"] {
+    border: 1px solid #9fa5b6;
+    display: block;
+    width: 100%;
+    background-color: #fbfdfd;
+    margin-bottom: 1rem;
+    padding: 0.225rem 0.75rem;
+    border-radius: 3px;
+    text-align: left;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 900px) {
+  main {
+    padding: 6.25rem 2.5rem;
+  }
+  main section.copy {
+    flex: 0 0 65%;
+  }
+  main .first {
+    flex: 0 0 35%;
+  }
+  main .copy > p {
+    padding-right: 3.125rem;
+  }
+}
+@media screen and (min-width: 901px) {
+  main {
+    padding: 6.25rem;
+    justify-content: space-between;
+  }
+  main > section.copy {
+    flex: 0 0 65%;
+  }
+  main > section.copy p {
+    padding-right: 6.25rem;
+  }
+  main > p {
+    padding-right: 6.25rem;
+  }
+  main .wrapper div.first {
+    flex: 0 0 35%;
+  }
+  main .wrapper div.first .form {
+    overflow: hidden;
+    height: 475px;
+    width: 100%;
+  }
+}
+
+/* footer */
+#site-footer {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 12px;
+  background: #222;
+  color: #999;
+}
+
+footer {
+  padding: 0;
+  background-color: lightgray;
+}
+footer .upper-footer {
+  align-items: center;
+}
+footer .upper-footer .right {
+  justify-content: center;
+}
+footer .upper-footer .right img {
+  height: 1.75rem;
+  width: auto;
+}
+footer .upper-footer .right .social:not(:last-child) {
+  margin-right: 4rem;
+}
+@media screen and (max-width: 640px) {
+  footer {
+    padding: 3.125rem 0.75rem;
+  }
+  footer section.upper-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer section.upper-footer .left {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  footer section.upper-footer .right {
+    padding-top: 3.125rem;
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  footer > p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 900px) {
+  footer {
+    padding: 3.125rem 2.5rem;
+  }
+  footer .upper-footer {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) {
+  footer {
+    padding: 1.5rem;
+  }
+  footer .upper-footer {
+    justify-content: space-between;
+  }
+  footer .upper-footer .left {
+    flex: 0 0 50%;
+  }
+  footer .upper-footer .right {
+    text-align: center;
+  }
+}
+
+/* footer end*/

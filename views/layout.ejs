@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olympics App</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- header -->
+
+    <header class="banner">
+    <section>
+        <h1><span>E</span>ast &nbsp; <span>B</span>erkshire &nbsp; <span>B</span>asketball  </h1>
+        <h2><strong>Come and join us for our tournament as well as league! We will arrange games everyweek on a day which is convenient for you!</strong></h2>
+    </section>
+    <img src="/images/flyer.jpg">
+</header>
+    <header id="site-header">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/" class="navbar-brand">Home</a>
+                </div>
+
+                <ul class="nav navbar-nav">
+<!--                    <li><a href="/events">Events</a></li>-->
+                    <li><a href="/events/create">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main id="site-main">
+    <div class="container">
+        <%- body %>
+    </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+    <section class="upper-footer">
+        <div class="right">
+            <a class="social" href="#"><img src="/images/twitter.svg" alt="Twitter"></a>
+            <a class="social" href="#"><img src="/images/fb.svg" alt="Facebook"></a>
+            <a class="social" href="#"><img src="/images/youtube.svg" alt="YouTube"></a>
+        </div>
+    </section>
+</footer>
+
+
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</body>
+</html>
+
