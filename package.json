@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scotch-io/node-crud-course.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scotch-io/node-crud-course/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/scotch-io/node-crud-course#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.15.2",
     "connect-flash": "^0.1.1",
@@ -26,6 +26,7 @@
     "express-ejs-layouts": "^2.2.0",
     "express-session": "^1.14.0",
     "express-validator": "^2.20.8",
-    "mongoose": "^4.5.8"
+    "mongoose": "^4.5.8",
+    "mongodb": "^2.2.30"
   }
 }
