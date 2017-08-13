@@ -9,7 +9,7 @@ const eventSchema = new Schema({
     unique: true
   },
   tname: String,
-  pnumber: Number,
+  pnumber: String,
   email: String
 });
 
