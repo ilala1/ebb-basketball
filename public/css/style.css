@@ -126,7 +126,6 @@ main {
 .inner{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 .container{
   display: flex;
@@ -285,6 +284,7 @@ main .form input[type="submit"] {
 
   main .copy > .inner {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 901px) {
@@ -308,6 +308,9 @@ main .form input[type="submit"] {
     overflow: hidden;
     height: 475px;
     width: 100%;
+  }
+  main .copy > .inner {
+    justify-content: center;
   }
 }
 
@@ -360,6 +363,7 @@ footer .upper-footer .right .social:not(:last-child) {
   }
   main .copy > .inner {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 900px) {
