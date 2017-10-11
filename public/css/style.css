@@ -67,7 +67,7 @@ header.banner > section div.copy p {
 header.banner > section div.copy p:not(:last-child) {
   margin-bottom: 2.1875rem;
 }
-header.banner > img {
+header.banner > a > img {
   width: 26.375rem;
   align-self: flex-end;
 }

@@ -4,6 +4,9 @@ We'll cover the concepts necessary to handle creating a Node application that ha
 
 These are the foundation of many types of applications.
 
+Nodemon server.js
+
+
 ## Requirements
 
 - [Node and npm](https://nodejs.org)
