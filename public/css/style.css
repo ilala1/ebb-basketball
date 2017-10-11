@@ -52,6 +52,8 @@ header.banner > section h2 {
   line-height: 2.5rem;
   color: #FFFFFF;
   margin-bottom: 3.125rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 header.banner > section div.copy {
   padding-bottom: 6rem;
@@ -123,6 +125,8 @@ main {
 
 .inner{
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .container{
   display: flex;
@@ -270,13 +274,17 @@ main .form input[type="submit"] {
     padding: 6.25rem 2.5rem;
   }
   main section.copy {
-    flex: 0 0 65%;
+    width: 100%;
   }
   main .first {
     flex: 0 0 35%;
   }
   main .copy > p {
     padding-right: 3.125rem;
+  }
+
+  main .copy > .inner {
+    justify-content: center;
   }
 }
 @media screen and (min-width: 901px) {
@@ -285,7 +293,7 @@ main .form input[type="submit"] {
     justify-content: space-between;
   }
   main > section.copy {
-    flex: 0 0 65%;
+    width: 100%;
   }
   main > section.copy p {
     padding-right: 6.25rem;
@@ -349,6 +357,9 @@ footer .upper-footer .right .social:not(:last-child) {
   }
   footer > p {
     text-align: center;
+  }
+  main .copy > .inner {
+    justify-content: center;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 900px) {
