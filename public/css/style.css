@@ -11,7 +11,7 @@ body {
 }
 /*============header css start ===========*/
 header.banner {
-  padding: 3.125rem;
+  padding: 6.25rem;
   display: flex;
   background: url("../images/basketball2.png") no-repeat top center;
   background-size: cover;
@@ -132,6 +132,7 @@ main {
 }
 
 .copy{
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex: 0 0 98%;
